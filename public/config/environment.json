@@ -2,11 +2,11 @@
   "apiUrl": "https://project42-api.sorintdev.it",
   "gravatarUrl": "https://savatar-api.sorintdev.it/avatar",
   "keycloak": {
-    "url": "https://login.sorintdev.it/auth",
-    "realm": "sorinttest",
+    "url": "https://login.sorint.it/auth",
+    "realm": "sorint",
     "clientId": "project42",
     "credentials": {
-      "secret": "bcee960b-d31f-4468-9d8c-16201b308c45"
+      "secret": "00bd3f21-6fd5-4b22-8d28-a09b4b28462d"
     }
   }
 }
