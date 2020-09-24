@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.dialog-overflow {
+  max-height: calc(90vh - 140px);
+  overflow: auto;
+}
+
+.v-card__actions .v-alert {
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: project42-frontend
+spec:
+  rules:
+    - host: project42.sorintdev.it
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: project42-frontend
+              servicePort: 80

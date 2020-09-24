@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: project42-frontend
+  labels:
+    app: project42-frontend
+spec:
+  ports:
+    - port: 80
+      name: web
+      protocol: TCP
+      targetPort: 80
+  selector:
+    app: project42-frontend
+  sessionAffinity: None
+  type: ClusterIP

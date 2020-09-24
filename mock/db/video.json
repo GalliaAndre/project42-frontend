@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Example Video 1",
+    "description": "Lorem ipsum dolor sit amet, soluta maluisset constituto et qui. Habeo propriae copiosae cu ius, ei exerci corrumpit complectitur eum.",
+    "bannerName": "banner.jpg",
+    "fileName": "video.mp4",
+    "published": true,
+    "series": 1,
+    "author": {
+      "id": 1,
+      "email": "mrossi@sorint.it",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "username": "mrossi"
+    },
+    "categories": [1, 2, 3],
+    "visitsCount": 3,
+    "averageRating": 3,
+    "userVisit": {
+      "id": 1,
+      "completed": false
+    },
+    "createdAt": "2020-06-11T14:53:03.666Z"
+  },
+  {
+    "id": 2,
+    "title": "Example Video 2",
+    "description": "Lorem ipsum dolor sit amet, soluta maluisset constituto et qui. Habeo propriae copiosae cu ius, ei exerci corrumpit complectitur eum.",
+    "bannerName": "banner.jpg",
+    "fileName": "video.mp4",
+    "published": false,
+    "categories": [1],
+    "series": 1,
+    "author": {
+      "id": 1,
+      "email": "mrossi@sorint.it",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "username": "mrossi"
+    },
+    "visitsCount": 3,
+    "averageRating": 3,
+    "userVisit": {
+      "id": 1,
+      "completed": true
+    },
+    "createdAt": "2020-06-17T12:07:52.435Z"
+  },
+  {
+    "id": 3,
+    "title": "Example Video 3",
+    "description": "Lorem ipsum dolor sit amet, soluta maluisset constituto et qui. Habeo propriae copiosae cu ius, ei exerci corrumpit complectitur eum.",
+    "bannerName": "banner.jpg",
+    "fileName": "video.mp4",
+    "published": false,
+    "categories": [2, 3],
+    "series": 1,
+    "author": {
+      "id": 1,
+      "email": "mrossi@sorint.it",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "username": "mrossi"
+    },
+    "visitsCount": 3,
+    "averageRating": 3,
+    "userVisit": {
+      "id": 1,
+      "completed": false
+    },
+    "createdAt": "2020-06-17T12:08:17.803Z"
+  },
+  {
+    "id": 4,
+    "title": "Example Video 4",
+    "bannerName": "banner.jpg",
+    "fileName": "video.mp4",
+    "published": false,
+    "categories": [2, 1],
+    "series": 0,
+    "author": {
+      "id": 1,
+      "email": "mrossi@sorint.it",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "username": "mrossi"
+    },
+    "visitsCount": 3,
+    "averageRating": 3,
+    "userVisit": {
+      "id": 1,
+      "completed": true
+    },
+    "createdAt": "2020-06-17T12:21:22.181Z",
+    "description": "Lorem ipsum dolor sit amet, soluta maluisset constituto et qui. Habeo propriae copiosae cu ius, ei exerci corrumpit complectitur eum."
+  },
+  {
+    "id": 5,
+    "title": "asdasd",
+    "description": "",
+    "bannerName": "banner.jpg",
+    "fileName": "video.mp4",
+    "published": false,
+    "categories": [1],
+    "series": 1,
+    "author": {
+      "id": 1,
+      "email": "mrossi@sorint.it",
+      "firstName": "Mario",
+      "lastName": "Rossi",
+      "username": "mrossi"
+    },
+    "visitsCount": 3,
+    "averageRating": 3,
+    "userVisit": {
+      "id": 1,
+      "completed": false
+    },
+    "createdAt": "2020-06-18T13:58:58.942Z"
+  }
+]

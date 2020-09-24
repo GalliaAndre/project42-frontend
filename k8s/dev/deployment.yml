@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: project42-frontend
+  labels:
+    app: project42-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: project42-frontend
+  template:
+    metadata:
+      labels:
+        app: project42-frontend
+    spec:
+      terminationGracePeriodSeconds: 0
+      restartPolicy: Always
+      containers:
+        - image: registry.sorintdev.it/project42-frontend
+          imagePullPolicy: Always
+          name: project42-frontend
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          volumeMounts:
+            - name: project42-frontend-config
+              mountPath: /usr/share/nginx/html/config
+      volumes:
+        - name: project42-frontend-config
+          secret:
+            secretName: project42-frontend-secret
